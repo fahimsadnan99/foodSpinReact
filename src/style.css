@@ -1,0 +1,11 @@
+.carbSection {
+    width: 1117px;
+    height: 1117px;
+     top : 0px;
+    left: 400px; 
+    background : #FFEEDE;
+    position: absolute;
+    /* z-index: -1; */
+
+    /* @apply rounded-full  */
+}
