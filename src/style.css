@@ -1,11 +1,97 @@
 .carbSection {
     width: 1117px;
     height: 1117px;
-     top : 0px;
+     top : -650px;
     left: 400px; 
     background : #FFEEDE;
     position: absolute;
-    /* z-index: -1; */
+    z-index: -1;
+    overflow: hidden;
 
-    /* @apply rounded-full  */
+    @apply rounded-full 
 }
+
+.foodSection {
+    width: 550px;
+    height: 550px;
+    background-image: url(./assets/Border.svg);
+    background-repeat: no-repeat;
+    transform: rotate(8deg);
+    
+    position: absolute; 
+     top: 75%;
+    left: 25%;
+ 
+
+    
+}
+
+
+.ringChild {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 30px;
+    transition: all 0.5s;
+   
+
+}
+
+.ringChild span:nth-child(1) {
+  position: absolute;
+  top: -16%;
+  left: 23%;
+}
+
+.ringChild span:nth-child(2) {
+    position: absolute;
+    top: 28%;
+    left: -20%;
+  }
+
+
+  .ringChild span:nth-child(3) {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+  }
+
+
+  .ringChild span:nth-child(4) {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    width: 175px;
+  }
+
+  .ringChild span:nth-child(5) {
+    position: absolute;
+    top: 14%;
+    left: 83%;
+    width: 180px;
+  }
+
+ 
+
+  .actionSection {
+    width:500px;
+    position: absolute;
+    bottom: 0%;
+    left: 55%;
+  }
+
+  .actionSection img {
+    width: 400px;
+    height: 400px;
+ 
+ 
+  }
+
+  /* .actionBtn {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  } */
